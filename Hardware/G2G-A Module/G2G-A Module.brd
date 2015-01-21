@@ -137,18 +137,18 @@
 <wire x1="13.0734" y1="-0.0076" x2="13.0812" y2="12.7916" width="0" layer="20"/>
 <wire x1="13.0812" y1="12.7916" x2="0" y2="12.7916" width="0" layer="20"/>
 <wire x1="0" y1="12.7916" x2="0" y2="0" width="0" layer="20"/>
-<text x="10.5918" y="10.2362" size="1.4224" layer="21">A</text>
+<text x="10.8966" y="10.2362" size="1.4224" layer="21" font="vector">A</text>
 <wire x1="10.3632" y1="11.8872" x2="10.3632" y2="9.9822" width="0.254" layer="21"/>
 <wire x1="10.3632" y1="9.9822" x2="12.2682" y2="9.9822" width="0.254" layer="21"/>
 <wire x1="12.2682" y1="9.9822" x2="12.2682" y2="11.8872" width="0.254" layer="21"/>
 <wire x1="12.2682" y1="11.8872" x2="10.3632" y2="11.8872" width="0.254" layer="21"/>
-<text x="12.5222" y="1.905" size="1.016" layer="22" rot="MR0">G2G-A</text>
-<text x="12.5222" y="0.6096" size="1.016" layer="22" rot="MR0">v1.0</text>
-<text x="6.9088" y="0.7112" size="0.8128" layer="21">5V</text>
-<text x="9.0678" y="0.7366" size="0.8128" layer="21">G</text>
-<text x="12.6238" y="5.7658" size="1.4224" layer="22" rot="MR0">Gadgeteer.in'</text>
-<text x="4.8768" y="0.7112" size="0.8128" layer="21">A0</text>
-<text x="2.8194" y="0.6858" size="0.8128" layer="21">A1</text>
+<text x="12.5222" y="1.905" size="1.016" layer="22" font="vector" rot="MR0">G2G-A</text>
+<text x="12.5222" y="0.6096" size="1.016" layer="22" font="vector" rot="MR0">v1.0</text>
+<text x="8.001" y="0.381" size="0.8128" layer="21" font="vector" rot="R90">5V</text>
+<text x="10.033" y="0.6858" size="0.8128" layer="21" font="vector" rot="R90">G</text>
+<text x="11.684" y="6.096" size="1.016" layer="22" font="vector" rot="MR0">Gadgeteer.in'</text>
+<text x="5.9182" y="0.3556" size="0.8128" layer="21" font="vector" rot="R90">A0</text>
+<text x="3.8862" y="0.381" size="0.8128" layer="21" font="vector" rot="R90">A1</text>
 <rectangle x1="0.635" y1="9.5758" x2="3.1496" y2="9.9314" layer="21"/>
 <rectangle x1="0.635" y1="11.7348" x2="3.1496" y2="12.0904" layer="21"/>
 <rectangle x1="1.7145" y1="10.6553" x2="4.2291" y2="11.0109" layer="21" rot="R90"/>

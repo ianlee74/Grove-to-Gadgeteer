@@ -142,13 +142,13 @@
 <wire x1="10.3632" y1="9.9822" x2="12.2682" y2="9.9822" width="0.254" layer="21"/>
 <wire x1="12.2682" y1="9.9822" x2="12.2682" y2="11.8872" width="0.254" layer="21"/>
 <wire x1="12.2682" y1="11.8872" x2="10.3632" y2="11.8872" width="0.254" layer="21"/>
-<text x="12.5222" y="1.905" size="1.016" layer="22" rot="MR0">G2G-I</text>
-<text x="12.5222" y="0.6096" size="1.016" layer="22" rot="MR0">v1.0</text>
-<text x="2.6416" y="0.762" size="0.8128" layer="21">Scl</text>
-<text x="4.5466" y="0.762" size="0.8128" layer="21">Sda</text>
-<text x="6.9088" y="0.7112" size="0.8128" layer="21">5V</text>
-<text x="9.0678" y="0.7366" size="0.8128" layer="21">G</text>
-<text x="12.6238" y="5.7658" size="1.4224" layer="22" rot="MR0">Gadgeteer.in'</text>
+<text x="12.5222" y="1.905" size="1.016" layer="22" font="vector" rot="MR0">G2G-I</text>
+<text x="12.5222" y="0.6096" size="1.016" layer="22" font="vector" rot="MR0">v1.0</text>
+<text x="4.1402" y="0.4826" size="0.6096" layer="21" font="vector" rot="R90">Scl</text>
+<text x="5.7912" y="0.4572" size="0.6096" layer="21" font="vector" rot="R90">Sda</text>
+<text x="8.0518" y="0.635" size="0.8128" layer="21" font="vector" rot="R90">5V</text>
+<text x="10.033" y="0.7112" size="0.8128" layer="21" font="vector" rot="R90">G</text>
+<text x="11.6586" y="6.0198" size="1.016" layer="22" font="vector" rot="MR0">Gadgeteer.in'</text>
 <rectangle x1="0.5842" y1="9.652" x2="3.0988" y2="10.0076" layer="21"/>
 <rectangle x1="0.5842" y1="11.811" x2="3.0988" y2="12.1666" layer="21"/>
 <rectangle x1="1.6637" y1="10.7315" x2="4.1783" y2="11.0871" layer="21" rot="R90"/>
