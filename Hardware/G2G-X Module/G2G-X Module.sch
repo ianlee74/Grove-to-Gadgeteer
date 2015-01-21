@@ -441,6 +441,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<text x="29.21" y="10.16" size="1.27" layer="16" font="vector" ratio="15" rot="SMR0">&gt;VERSION</text>
+<text x="26.67" y="0" size="1.778" layer="51">&gt;DESIGNER</text>
+</package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
 </packages>
 <symbols>
 <symbol name="OSHW-LOGO">
@@ -3997,6 +4007,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
+<symbol name="LETTER_L">
+<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
+<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
+<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
+<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
+<text x="22.86" y="11.684" size="2.54" layer="94">&gt;DESIGNER</text>
+<text x="88.9" y="6.604" size="2.54" layer="94" font="vector">&gt;VERSION</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OSHW-LOGO" prefix="LOGO">
@@ -4018,6 +4068,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <device name="L" package="OSHW-LOGO-L">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME-LETTER" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
+Standard 8.5x11 US Letter frame</description>
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="CREATIVE_COMMONS">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="NAME" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NO_PACKAGE" package="DUMMY">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="Nobody" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4109,87 +4185,93 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE">
+<attribute name="DESIGNER" value="Ian Lee"/>
+<attribute name="VERSION" value="v1.0"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="J" x="27.94" y="43.18"/>
-<instance part="U$1" gate="G$1" x="66.04" y="43.18"/>
+<instance part="J1" gate="J" x="88.9" y="96.52"/>
+<instance part="U$1" gate="G$1" x="127" y="96.52"/>
 <instance part="LOGO1" gate="G$1" x="20.32" y="17.78"/>
-<instance part="GND1" gate="1" x="39.37" y="36.83"/>
-<instance part="GND2" gate="1" x="81.788" y="50.8" rot="R180"/>
-<instance part="SUPPLY1" gate="+5V" x="41.402" y="41.91" rot="R270"/>
-<instance part="SUPPLY2" gate="+5V" x="82.55" y="38.1" rot="R270"/>
+<instance part="GND1" gate="1" x="100.33" y="90.17"/>
+<instance part="GND2" gate="1" x="142.748" y="104.14" rot="R180"/>
+<instance part="SUPPLY1" gate="+5V" x="102.362" y="95.25" rot="R270"/>
+<instance part="SUPPLY2" gate="+5V" x="143.51" y="91.44" rot="R270"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="V" x="147.32" y="0"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<wire x1="75.946" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="136.906" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="10"/>
-<junction x="76.2" y="48.26"/>
-<wire x1="76.2" y1="48.26" x2="81.788" y2="48.26" width="0.1524" layer="91"/>
+<junction x="137.16" y="101.6"/>
+<wire x1="137.16" y1="101.6" x2="142.748" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<junction x="81.788" y="48.26"/>
+<junction x="142.748" y="101.6"/>
 </segment>
 <segment>
-<wire x1="32.766" y1="39.37" x2="33.02" y2="39.37" width="0.1524" layer="91"/>
+<wire x1="93.726" y1="92.71" x2="93.98" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J" pin="4"/>
-<junction x="33.02" y="39.37"/>
-<wire x1="33.02" y1="39.37" x2="39.37" y2="39.37" width="0.1524" layer="91"/>
+<junction x="93.98" y="92.71"/>
+<wire x1="93.98" y1="92.71" x2="100.33" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<junction x="39.37" y="39.37"/>
+<junction x="100.33" y="92.71"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="33.02" y1="41.91" x2="38.862" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="95.25" x2="99.822" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J" pin="3"/>
-<junction x="33.02" y="41.91"/>
-<wire x1="38.862" y1="41.91" x2="39.116" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="32.512" y1="41.91" x2="33.02" y2="41.91" width="0.1524" layer="91"/>
+<junction x="93.98" y="95.25"/>
+<wire x1="99.822" y1="95.25" x2="100.076" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="93.472" y1="95.25" x2="93.98" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
-<junction x="38.862" y="41.91"/>
+<junction x="99.822" y="95.25"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="81.788" y1="38.1" x2="80.01" y2="38.1" width="0.1524" layer="91"/>
-<junction x="76.2" y="38.1"/>
+<wire x1="142.748" y1="91.44" x2="140.97" y2="91.44" width="0.1524" layer="91"/>
+<junction x="137.16" y="91.44"/>
 <pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
-<wire x1="80.01" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
-<junction x="80.01" y="38.1"/>
+<wire x1="140.97" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<junction x="140.97" y="91.44"/>
 </segment>
 </net>
 <net name="D1" class="0">
 <segment>
 <pinref part="J1" gate="J" pin="2"/>
-<wire x1="32.512" y1="44.45" x2="33.02" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="44.45" x2="39.116" y2="44.45" width="0.1524" layer="91"/>
-<junction x="33.02" y="44.45"/>
-<label x="33.782" y="44.704" size="1.778" layer="95"/>
+<wire x1="93.472" y1="97.79" x2="93.98" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="97.79" x2="100.076" y2="97.79" width="0.1524" layer="91"/>
+<junction x="93.98" y="97.79"/>
+<label x="94.742" y="98.044" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="76.2" y1="40.64" x2="81.788" y2="40.64" width="0.1524" layer="91"/>
-<junction x="76.2" y="40.64"/>
-<label x="76.708" y="40.894" size="1.778" layer="95"/>
+<wire x1="137.16" y1="93.98" x2="142.748" y2="93.98" width="0.1524" layer="91"/>
+<junction x="137.16" y="93.98"/>
+<label x="137.668" y="94.234" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="55.88" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
-<label x="51.308" y="40.894" size="1.778" layer="95"/>
-<junction x="55.88" y="40.64"/>
+<wire x1="116.84" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<label x="112.268" y="94.234" size="1.778" layer="95"/>
+<junction x="116.84" y="93.98"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="1"/>
-<wire x1="33.02" y1="46.99" x2="38.862" y2="46.99" width="0.1524" layer="91"/>
-<junction x="33.02" y="46.99"/>
-<label x="33.782" y="47.244" size="1.778" layer="95"/>
+<wire x1="93.98" y1="100.33" x2="99.822" y2="100.33" width="0.1524" layer="91"/>
+<junction x="93.98" y="100.33"/>
+<label x="94.742" y="100.584" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

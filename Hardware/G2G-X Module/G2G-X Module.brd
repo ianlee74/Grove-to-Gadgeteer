@@ -292,6 +292,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
 </packages>
 </library>
 <library name="SoftDust">
@@ -549,6 +552,10 @@ design rules under a new name.</description>
 <element name="J1" library="SoftDust" package="4P-2.0" value="GROVE-4P-2.0-3470130P1" x="6.5532" y="4.572" smashed="yes"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="1.8796" y="1.778" rot="MR0"/>
 <element name="U$1" library="SoftDust" package="2X5_1.27MM_FEMALE_PLUG" value="2X5_1.27MM_FEMALE_PLUG" x="6.5532" y="9.9822" rot="MR0"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="" x="0" y="-1.27">
+<attribute name="VERSION" value="v1.0" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="DESIGNER" value="Ian Lee" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
