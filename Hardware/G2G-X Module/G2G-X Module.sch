@@ -220,6 +220,15 @@
 <text x="-1.889" y="7.668" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
 <text x="-1.905" y="1.905" size="0.635" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="GADGETEER_LOGO_SMALL">
+<rectangle x1="0" y1="0" x2="0.381" y2="2.667" layer="21"/>
+<rectangle x1="1.143" y1="1.143" x2="1.524" y2="3.81" layer="21" rot="R90"/>
+<rectangle x1="1.143" y1="-1.143" x2="1.524" y2="1.524" layer="21" rot="R90"/>
+<rectangle x1="2.286" y1="0" x2="2.667" y2="2.667" layer="21" rot="R180"/>
+<rectangle x1="0.762" y1="1.524" x2="2.286" y2="1.905" layer="21"/>
+<rectangle x1="0.762" y1="0.762" x2="1.143" y2="1.524" layer="21"/>
+<rectangle x1="1.143" y1="0.762" x2="1.905" y2="1.143" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2X5_1.27MM_FEMALE_PLUG">
@@ -263,6 +272,15 @@
 <wire x1="2.54" y1="1.27" x2="1.016" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-1.27" x2="1.016" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-3.81" x2="1.016" y2="-3.81" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="GADGETEER_LOGO_SMALL">
+<rectangle x1="0" y1="0" x2="0.381" y2="2.667" layer="95"/>
+<rectangle x1="1.143" y1="-1.143" x2="1.524" y2="1.524" layer="95" rot="R90"/>
+<rectangle x1="2.286" y1="0" x2="2.667" y2="2.667" layer="95" rot="R180"/>
+<rectangle x1="1.143" y1="1.143" x2="1.524" y2="3.81" layer="95" rot="R270"/>
+<rectangle x1="0.762" y1="1.524" x2="2.413" y2="1.905" layer="95"/>
+<rectangle x1="0.762" y1="0.762" x2="1.143" y2="1.524" layer="95"/>
+<rectangle x1="1.143" y1="0.762" x2="1.905" y2="1.143" layer="95"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -313,6 +331,18 @@
 <connect gate="J" pin="3" pad="3"/>
 <connect gate="J" pin="4" pad="4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GADGETEER_LOGO_SMALL">
+<gates>
+<gate name="G$1" symbol="GADGETEER_LOGO_SMALL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GADGETEER_LOGO_SMALL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4189,6 +4219,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="DESIGNER" value="Ian Lee"/>
 <attribute name="VERSION" value="v1.0"/>
 </part>
+<part name="U$2" library="SoftDust" deviceset="GADGETEER_LOGO_SMALL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4204,6 +4235,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY2" gate="+5V" x="143.51" y="91.44" rot="R270"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
+<instance part="U$2" gate="G$1" x="43.18" y="10.16"/>
 </instances>
 <busses>
 </busses>

@@ -149,13 +149,6 @@
 <text x="8.1026" y="0.5334" size="0.8128" layer="21" font="vector" rot="R90">5V</text>
 <text x="10.033" y="0.7112" size="0.8128" layer="21" font="vector" rot="R90">G</text>
 <text x="11.6586" y="5.9944" size="1.016" layer="22" font="vector" rot="MR0">Gadgeteer.in'</text>
-<rectangle x1="0.5588" y1="9.652" x2="3.0734" y2="10.0076" layer="21"/>
-<rectangle x1="0.5588" y1="11.811" x2="3.0734" y2="12.1666" layer="21"/>
-<rectangle x1="1.6383" y1="10.7315" x2="4.1529" y2="11.0871" layer="21" rot="R90"/>
-<rectangle x1="-0.5207" y1="10.7315" x2="1.9939" y2="11.0871" layer="21" rot="R90"/>
-<rectangle x1="1.27" y1="11.0744" x2="2.7432" y2="11.4554" layer="21"/>
-<rectangle x1="1.27" y1="10.3632" x2="1.6256" y2="11.2014" layer="21"/>
-<rectangle x1="1.7653" y1="10.1219" x2="2.1209" y2="10.9601" layer="21" rot="R90"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -269,6 +262,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
 <text x="-1.905" y="2.54" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
 <text x="-1.905" y="0" size="0.635" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="GADGETEER_LOGO_SMALL">
+<rectangle x1="0" y1="0" x2="0.381" y2="2.667" layer="21"/>
+<rectangle x1="1.143" y1="1.143" x2="1.524" y2="3.81" layer="21" rot="R90"/>
+<rectangle x1="1.143" y1="-1.143" x2="1.524" y2="1.524" layer="21" rot="R90"/>
+<rectangle x1="2.286" y1="0" x2="2.667" y2="2.667" layer="21" rot="R180"/>
+<rectangle x1="0.762" y1="1.524" x2="2.286" y2="1.905" layer="21"/>
+<rectangle x1="0.762" y1="0.762" x2="1.143" y2="1.524" layer="21"/>
+<rectangle x1="1.143" y1="0.762" x2="1.905" y2="1.143" layer="21"/>
 </package>
 </packages>
 </library>
@@ -470,6 +472,7 @@ design rules under a new name.</description>
 <attribute name="VERSION" value="v1.0" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="DESIGNER" value="Ian Lee" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U$2" library="SoftDust" package="GADGETEER_LOGO_SMALL" value="GADGETEER_LOGO_SMALL" x="0.5588" y="9.4996"/>
 </elements>
 <signals>
 <signal name="GND">

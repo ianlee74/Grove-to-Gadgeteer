@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.0254" altunitdist="mm" altunit="mm"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0254" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -149,13 +149,6 @@
 <text x="11.684" y="6.096" size="1.016" layer="22" font="vector" rot="MR0">Gadgeteer.in'</text>
 <text x="5.9182" y="0.3556" size="0.8128" layer="21" font="vector" rot="R90">A0</text>
 <text x="3.8862" y="0.381" size="0.8128" layer="21" font="vector" rot="R90">A1</text>
-<rectangle x1="0.635" y1="9.5758" x2="3.1496" y2="9.9314" layer="21"/>
-<rectangle x1="0.635" y1="11.7348" x2="3.1496" y2="12.0904" layer="21"/>
-<rectangle x1="1.7145" y1="10.6553" x2="4.2291" y2="11.0109" layer="21" rot="R90"/>
-<rectangle x1="-0.4445" y1="10.6553" x2="2.0701" y2="11.0109" layer="21" rot="R90"/>
-<rectangle x1="1.3462" y1="10.9982" x2="2.8194" y2="11.3792" layer="21"/>
-<rectangle x1="1.3462" y1="10.287" x2="1.7018" y2="11.1252" layer="21"/>
-<rectangle x1="1.8415" y1="10.0457" x2="2.1971" y2="10.8839" layer="21" rot="R90"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -269,6 +262,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
 <text x="-1.905" y="2.54" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
 <text x="-1.905" y="0" size="0.635" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="GADGETEER_LOGO_SMALL">
+<rectangle x1="0" y1="0" x2="0.381" y2="2.667" layer="21"/>
+<rectangle x1="1.143" y1="1.143" x2="1.524" y2="3.81" layer="21" rot="R90"/>
+<rectangle x1="1.143" y1="-1.143" x2="1.524" y2="1.524" layer="21" rot="R90"/>
+<rectangle x1="2.286" y1="0" x2="2.667" y2="2.667" layer="21" rot="R180"/>
+<rectangle x1="0.762" y1="1.524" x2="2.286" y2="1.905" layer="21"/>
+<rectangle x1="0.762" y1="0.762" x2="1.143" y2="1.524" layer="21"/>
+<rectangle x1="1.143" y1="0.762" x2="1.905" y2="1.143" layer="21"/>
 </package>
 </packages>
 </library>
@@ -470,6 +472,7 @@ design rules under a new name.</description>
 <attribute name="VERSION" value="v1.0" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="DESIGNER" value="Ian Lee" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U$2" library="SoftDust" package="GADGETEER_LOGO_SMALL" value="GADGETEER_LOGO_SMALL" x="0.5588" y="9.525"/>
 </elements>
 <signals>
 <signal name="GND">
